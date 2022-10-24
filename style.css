@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  
+}
+
+body{ background-color: #ce87fa;}
+
+main{
+  width: 80%;
+  align-items: center; margin: auto;
+  background-color: #ce87fa;
+}
+
+#cabecalho {
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(31, 1, 41) , rgb(167, 8, 241));
+ 
+}
+
+#tabela-cabecalho{
+  margin: auto;
+  width: 50%;
+  padding: 1%;
+  height: 100%;
+
+}
+#imagem-perfil{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+ 
+}
+#linhaimg{
+  text-align: center;
+}
+
+.nome-sobrenome{
+  font-family: 'Open Sans';
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-align: left;
+}
+.funcao{
+  font-family: 'Courier New';
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  text-align: left;
+ 
+}
+
+#tabela-conteudo1{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+}
+
+#imagem-perfil2{
+  border-radius: 10%;
+  height: 700;
+   width: 70%;
+  align-items: center; 
+ }
+
+#texto-contato{
+  border-radius: 10%;
+  height: 400;
+   width: 40%;
+  background:  #350155;
+}
+
+
+#button-ativo{
+  background:  #350155;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.81;
+  letter-spacing: 4.72px;
+  font-size: 19.2px;
+  color: #FFFFFF;
+  font-family:  Caveat;
+  border-radius: 17px;
+  padding:17px;
+  text-shadow: 0px 1px 2px #000000;
+  
+}
+
+.button{
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.81;
+  letter-spacing: 4.72px;
+  font-size: 19.2px;
+  color: #FFFFFF;
+  font-family:  Caveat;
+  background:  #ce87fa;
+  border-radius: 17px;
+  padding:17px;
+  text-shadow: 0px 1px 2px #000000;
+  -webkit-transition: all 0.05s ease;
+  -moz-transition: all 0.05s ease;
+  -o-transition: all 0.05s ease;
+  transition: all 0.05s ease;
+}
+.button:hover{
+  font-weight: normal;
+  opacity:0.81;
+  background-image: linear-gradient(to right, rgb(31, 1, 41) , rgb(167, 8, 241));
+ 
+  border-radius: 17px;
+  text-shadow: 0px 1px 0px #000000;
+  
+}
+
+nav{
+  width: 80%;
+  margin: auto; 
+  padding:5%;
+
+  text-align: center;}
+
+td{
+  text-align: center;
+}
+
+
+#button-contato{
+  background:  #e903fd;
+
+
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.81;
+  letter-spacing: 4.72px;
+  font-size: 19.2px;
+  color: #FFFFFF;
+  font-family:  Caveat;
+  
+  border-radius: 17px;
+  padding:12px;
+  text-shadow: 0px 1px 2px #000000;
+  position: relative;
+  right: 100px;
+top:50px;
+
+
+
+  
+}
+
+#button-contato a{
+  text-align: center;
+}
+
+
+
+h2, h3{text-align: left;
+  font-family: Caveat;
+  color: white;
+ 
+  padding-left: 20px;
+}
+h1{
+  font-family: Open Sans;
+  color: #fab11f;text-align: left;  padding-left: 20px;
+}
+
+#tabela-conteudo2{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+
+}
+
+.nome-link{
+  font-size: 15;
+    text-decoration: none;
+  color: #000000;
+  font-weight: bold; 
+  text-align: left;
+  
+}
+ 
+.descricao{
+  text-align: left;
+}
+
+
+#titulo-section2{
+font-family: Open Sans;
+ color:rgb(0, 0, 0);
+ font-size: 20px;
+ font-weight: bold; 
+ padding: 40px 3% 10px;   
+ width: 80%;
+ text-align: left;
+ margin: auto;
+}
+
+footer{
+  font-weight: bold; 
+  width: 100%;
+  margin: auto; 
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  font-family: Open Sans;
+  padding: 30px 3% 20px;  
+}
+
+
+#tabela-minibio{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+
+}
+
+#tabela-experiencia{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+
+}
+
+#tabela-titulo-projeto{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+
+}
+
+#tabela-titulo-contato{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+
+}
+
+#minibio{
+  color: black;
+}
+
+
+.titulo-habilidades, .titulo-idiomas,.titulo-experiencia, .titulos{
+  font-family: 'Open Sans';
+  color: black;
+
+}
+progress::-webkit-progress-value {
+  border-radius: 50px;
+  background:rgb(54, 3, 75);
+}
+
+.ano{
+  white-space: nowrap;
+}
+
+
+.img-tamanho{
+  height:250px;
+  width:350px;
+}
+
+
+.paragrafo-justificado{
+text-align:justify;
+}
+
+.titulos-projetos{
+  text-align:left;
+  font-family: Open Sans;
+  color: #000000;
+ padding: 0;
+  }
+  
+
+#projetos{
+  color: black; padding: 0;
+}
+
+#tabela-formulario{
+  background-color: #ce87fa;
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+ 
+
+
+}
+
+input, select, textarea{
+  border-radius: 5px;
+  width: 400px;
+}
+
+#button-enviar{
+  background:  #350155;
+  font-weight: bold;
+  text-decoration: none;
+  opacity: 0.81;
+  letter-spacing: 4.72px;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  border-radius: 17px;
+  padding:17px;
+  text-shadow: 0px 1px 2px #000000;
+}
+
+
+#button-enviar:hover{
+  font-weight: normal;
+  opacity:0.81;
+  background-image: linear-gradient(to right, rgb(31, 1, 41) , rgb(167, 8, 241));
+  font-family: Open Sans;
+  border-radius: 17px;
+  text-shadow: 0px 1px 0px #000000;
+
+  
+}
+
+.formulario-posicao{
+  background-color: #ce87fa;
+
+  font-family: Open Sans;
+  border-collapse: separate;
+  border-spacing: 30px;
+  text-align: left;
+}
+
+
+ul{
+list-style:none;
+text-align: left;
+}
+
+.titulo-outroscontatos{
+  font-family: Open Sans;
+  color: #000000;  
+  text-align: left;
+  padding: 0;
+  font-size:20px;
+
+}
